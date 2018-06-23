@@ -25,7 +25,7 @@ client.on('message', message => {
         message.reply('my current commands are ~R/hug and ~R/help, sorry for so little commands');
     }
     if (message.content === '~R/displayX') {
-        message.reply('x is currently'+x);
+        message.reply('x is currently'+ x);
     }
     
 });
