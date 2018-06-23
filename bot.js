@@ -28,6 +28,10 @@ client.on('message', message => {
         message.reply('x is currently '+ x);
         x++1;
     }
+    if (message.content === '~R/Xreset') {
+        message.reply('reseting X!');
+        x==0;
+    }
     
 });
 
