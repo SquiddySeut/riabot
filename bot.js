@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.reply('pong');
+    if (message.content === 'issei') {
+    	message.reply('If you tell me where Issei is, maybe I will not murder you');
   	}
 });
 
