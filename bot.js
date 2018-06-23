@@ -12,6 +12,9 @@ client.on('message', message => {
     if (message.content === 'oppai') {
         message.reply('you p-p-pervert!');
     }
+    if (message.content === '~R/hug') {
+        message.reply('aww, here is a hug for you!');
+    }
 });
 
 // THIS  MUST  BE  THIS  WAY
