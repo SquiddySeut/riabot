@@ -7,10 +7,10 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'issei') {
-    	message.reply('If you do not tell me where Issei is, I will murder you');
+    	message.reply('if you do not tell me where Issei is, I will murder you');
   	}
     if (message.content === 'oppai') {
-        message.reply('You p-p-pervert!');
+        message.reply('you p-p-pervert!');
     }
 });
 
