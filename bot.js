@@ -15,6 +15,9 @@ client.on('message', message => {
     if (message.content === '~R/hug') {
         message.reply('aww, here is a hug for you!');
     }
+    if (message.content === '~R/help') {
+        message.reply('my current commands are ~R.hug and ~R/help, sorry for so little commands');
+    }
 });
 
 // THIS  MUST  BE  THIS  WAY
