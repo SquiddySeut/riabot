@@ -17,7 +17,7 @@ client.on('message', message => {
     }
     if (message.content === '~R/lewdme') {
         message.reply('no.');
-        message('Absolutely no');
+        message.reply('Absolutely no');
     }
     if (message.content === '~R/help') {
         message.reply('my current commands are ~R.hug and ~R/help, sorry for so little commands');
