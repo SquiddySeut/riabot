@@ -7,8 +7,11 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'issei') {
-    	message.reply('If you tell me where Issei is, maybe I will not murder you');
+    	message.reply('If you do not tell me where Issei is, I will not murder you');
   	}
+    if (message.content === 'oppai') {
+        message.reply('You p-p-pervert!');
+    }
 });
 
 // THIS  MUST  BE  THIS  WAY
