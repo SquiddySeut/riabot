@@ -26,11 +26,11 @@ client.on('message', message => {
     }
     if (message.content === '~R/displayX') {
         message.reply('x is currently '+ x);
-        x++1;
+        //x++1;
     }
     if (message.content === '~R/Xreset') {
         message.reply('reseting X!');
-        x==0;
+        //x==0;
     }
     
 });
