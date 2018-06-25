@@ -32,8 +32,11 @@ client.on('message', message => {
         message.reply('reseting X!');
         //x==0;
     }
+    if (message.content.startsWith("im")) {
+    message.channel.send("Hey Dad-bot, please shut up!");
     
 });
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
+
